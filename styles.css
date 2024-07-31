@@ -1,0 +1,236 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.dashboard {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 12px 12px 0 0;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo i {
+    margin-right: 10px;
+}
+
+.header .nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.header .nav a:hover {
+    text-decoration: underline;
+}
+
+.header .nav a i {
+    margin-right: 5px;
+}
+
+.header .user-profile {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.header .user-profile i {
+    margin-right: 5px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #4a90e2;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+h2 i {
+    margin-right: 10px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.Let's continue enhancing the CSS to make your website visually appealing and user-friendly with vibrant colors, rounded elements, and better typography.
+
+### Enhanced CSS (Continued)
+
+```css
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.performance-metrics,
+.security-metrics,
+.analytics-metrics,
+.insights-metrics,
+.settings-options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.performance-metrics > .card,
+.security-metrics > .card,
+.analytics-metrics > .card,
+.insights-metrics > .card,
+.settings-options > .card {
+    flex: 1 1 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.gauge {
+    width: 100px;
+    height: 100px;
+    background-color: #4caf50;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress {
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 12px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.real-time-alerts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.real-time-alerts li {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 12px;
+}
+
+.kpis p {
+    background: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 12px;
+}
+
+.header .nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+form label {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+form label:hover {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .performance-metrics,
+    .security-metrics,
+    .analytics-metrics,
+    .insights-metrics,
+    .settings-options {
+        flex-direction: column;
+    }
+
+    .performance-metrics > .card,
+    .security-metrics > .card,
+    .analytics-metrics > .card,
+    .insights-metrics > .card,
+    .settings-options > .card {
+        flex: 1 1 100%;
+    }
+}
